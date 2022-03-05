@@ -1,0 +1,7 @@
+[user]
+	name = Lewis Wood
+	email = lewislwood@gmail.com
+
+[core]
+	editor = notepad.exe
+	autocrlf = true

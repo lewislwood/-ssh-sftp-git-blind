@@ -18,7 +18,7 @@ Various resource links will be provided for you to gather more detail.
 
     >You can quickly clone this GitHub repository by copy address in adressbar into clipboard. Paste it into the following command:
 
-    ` $ git clone https://github.com/lewislwood/ssh-sftp-git-blind `
+    `` $ git clone https://github.com/lewislwood/ssh-sftp-git-blind ``
 
 Then if you want to follow along this tutorial, simply delete the hidden folder .git crated and the folder is no longer a git repository.
 

@@ -153,7 +153,7 @@ Origin will be assumed...
 
 That is it.
 
-# Resources / Homework {#resources}
+# Resources / Homework{resources}
 
 Best way to find out about command line git commands is google. The command line manual is too complicated and cannot be navigated easily. with screen readers.
  Just type in google any of the following:

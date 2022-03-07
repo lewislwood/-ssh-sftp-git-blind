@@ -11,7 +11,7 @@ dDemonstrate how I implemented ssh security in my workflow.
 + git config command and the resulting file .gitconfig . Briefly explained
 + GitHub repository created via browser and project folder coverted to git folder and pushed to new GitHub.
 
-Various resource links will be provided for you to gather more detail.
+Various [resource links](#resources) will be provided for you to gather more detail.
 
 # BlindHeroes.org Blog Article
   A video and audio webinar of this repository and a more in depth tutorial is available at:
@@ -153,7 +153,7 @@ Origin will be assumed...
 
 That is it.
 
-# Resources / Homework
+# Resources / Homework {#resources}
 
 Best way to find out about command line git commands is google. The command line manual is too complicated and cannot be navigated easily. with screen readers.
  Just type in google any of the following:
@@ -163,7 +163,6 @@ Best way to find out about command line git commands is google. The command line
 git merge
 
 [git branch workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
-
 
 
 

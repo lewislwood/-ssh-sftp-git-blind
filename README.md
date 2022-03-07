@@ -16,8 +16,8 @@ Various resource links will be provided for you to gather more detail.
 # BlindHeroes.org Blog Article
   A video and audio webinar of this repository and a more in depth tutorial is available at:
 
-You can quickly clone this GitHub repository by copy address in adressbar into clipboard. Paste it into the following command:
-` $ git clone https://github.com/lewislwood/ssh-sftp-git-blind
+    >You can quickly clone this GitHub repository by copy address in adressbar into clipboard. Paste it into the following command:
+ $ git clone https://github.com/lewislwood/ssh-sftp-git-blind
 
 Then if you want to follow along this tutorial, simply delete the hidden folder .git crated and the folder is no longer a git repository.
 
@@ -29,17 +29,17 @@ Then if you want to follow along this tutorial, simply delete the hidden folder 
 
 I will generate a key using the command below:
 
-~~ $ ssh-keygen -t ed25519 -C "lewislwood@gmail.com" 
+    >    > $ ssh-keygen -t ed25519 -C "lewislwood@gmail.com" 
 
 I will press enter on default location and change defaWhen prompted for filename and location I will enter "id_lewis-i9" which is the name of my computer that I gave it. The name can be anything.
  Now you will be prompted for a pass phrase. This is my desktop computer and I currently have no high secure items. Thus I opt for blank. On my laptop I will use one. Since it may be stolen someday.
 
  Two files will be created one with a .pub extension.
 You could of used the default and it would have created default files in the default directory.
-  default folder is ~/.ssh .  Now the ~/.ssh is the same as /home/lwood/.ssh since my username is lwood.
+  default folder is     >/.ssh .  Now the     >/.ssh is the same as /home/lwood/.ssh since my username is lwood.
 Now some hosts require I only have access to these files, thus I should apply 0700 rights to those files with the following:
 
-~ $  chmod 0700 /home/lwood/.ssh/*
+    > $  chmod 0700 /home/lwood/.ssh/*
 
 See the following link for additional information:
 
@@ -47,7 +47,7 @@ See the following link for additional information:
 
 # Configuring Hosts to use SSH
 
-Now we will need to create a config file and plae it in the ~/.ssh folder.   have included a sample one and placed it along with identity files for your reference.
+Now we will need to create a config file and plae it in the     >/.ssh folder.   have included a sample one and placed it along with identity files for your reference.
 
  Structure of the file is Host reference name.  This is the name we will use to trigger the entry below: All items are indented that apply to that host reference name. 
 You will see I use blindheroes.org as a reference name. The underlying  server name is actually ftp.jxxxxfei.me some ridiculous name. I specify username, identity file to use, and if I want it to ask for password.
@@ -64,7 +64,7 @@ Here is a good quick reference I used:
  Just make sure you already uploaded the SSH id*.pub file to the site first. I used control Panel and then Authorized it. Only the "*.pub" version, the other is locally only. The 2 files will be compared at connection time to verify connection.
 I do the following to connect:
 
-~ $ sftp blindheroes.org
+    > $ sftp blindheroes.org
 
 Once connected I can issue most standard linux commands. Those commands now work on the remote server. Prefix them with an l for local to do them local.
 Example: pwd - present working directory on server.  lpwd  present working directory on local computer.
@@ -92,14 +92,14 @@ Now you can pull up the .gitconfig file with the following command and review yo
 
 Now we will add a local git repository to the project folder. It will show up as a hidden folder named .git.
 
-~ $ git init  
+    > $ git init  
 
   Now enter the below command in order to add files in current folder and all subfolders. Excluding files in the .gitignore file.
 
-~ $ git add .  
+    > $ git add .  
    Now create your first commit with a message. I use "my first commit"  
 
-~ $ git commit -m "my first commit" 
+    > $ git commit -m "my first commit" 
 
 Now we need to add the GitHub repository to this local repo.  Notice "git remote" does not list any remote repositories.
 
@@ -134,16 +134,16 @@ now we need to copy the ssh link.  I find that by doing the following:
 + Now press "b" you should hear "copy buton" this will copy the link to the clipboard.
 
  Now return to project folder with local repository.
-~ $ git remote add origin <paste link here from github>
+    > $ git remote add origin <paste link here from github>
 
-~  $ git remote  
+    >  $ git remote  
 
 Your github link shoudl now appear as a remote for this local repository.
 Now you will push and set the origin as the upstream  repo.
 
-~ $ git push --set-upstream origin master
+    > $ git push --set-upstream origin master
 From now on all you have to say is 
-~ $ git push
+    > $ git push
 Origin will be assumed...
 
 That is it.

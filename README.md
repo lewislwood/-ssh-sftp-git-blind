@@ -10,11 +10,10 @@ dDemonstrate how I implemented ssh security in my workflow.
 + sftp connecting securely,, and overview of commands. No password needed.
 + git config command and the resulting file .gitconfig . Briefly explained
 + GitHub repository created via browser and project folder coverted to git folder and pushed to new GitHub.
+ 
+[resource links and Media Webinars](#resources) are provided at the bottom of this ReadMe file..
 
-Various [resource links and Media Webinars](#resources) are provided at the bottom of this ReadMe file..
-
-# BlindHeroes.org Blog Article
-  A video and audio webinar of this repository and a more in depth tutorial is available at:
+A video and audio webinar of this repository and a more in depth tutorial is available at:
 
 http://blindheroes.org
 

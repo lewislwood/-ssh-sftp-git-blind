@@ -11,10 +11,13 @@ dDemonstrate how I implemented ssh security in my workflow.
 + git config command and the resulting file .gitconfig . Briefly explained
 + GitHub repository created via browser and project folder coverted to git folder and pushed to new GitHub.
 
-Various [resource links](#resources) will be provided for you to gather more detail.
+Various [resource links and Media Webinars](#resources) are provided at the bottom of this ReadMe file..
 
 # BlindHeroes.org Blog Article
   A video and audio webinar of this repository and a more in depth tutorial is available at:
+
+http://blindheroes.org
+
 
     >You can quickly clone this GitHub repository by copy address in adressbar into clipboard. Paste it into the following command:
 
@@ -24,7 +27,6 @@ Then if you want to follow along this tutorial, simply delete the hidden folder 
 
     ` $ sudo rm -r .git`
 
-[Blind Heroes Website](http://blindheroes.org)
 
 ## SSH Key Generation
 
@@ -46,7 +48,7 @@ See the following link for additional information:
 
 [github using ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-# Configuring Hosts to use SSH
+## Configuring Hosts to use SSH
 
 Now we will need to create a config file and plae it in the     >/.ssh folder.   have included a sample one and placed it along with identity files for your reference.
 
@@ -57,7 +59,7 @@ Here is a good quick reference I used:
 
 [10 great host examples](https://gist.github.com/vrillusions/9538779)
 
-# SFTP - Secure FTP Protocol
+### SFTP - Secure FTP Protocol
 
  Linux comes with Ftp and SFtp preinstalled, so why not use it. It supports scripting, and all the standard commands that other popular Ftp programs do. SFtp is so easy, especially if you already know command line linux commands.
  Because of the configuration for SSH we did in the previous section, it is really simple to connecct. 
@@ -75,7 +77,7 @@ See following for a list of commonly used commands.
 
 [10 SFTP commands](https://www.tecmint.com/sftp-command-examples/)
 
-# Initial git configuration
+## Initial git configuration
 
 This is done when you first start using git. You will want to set up a user name, email, editor, and handle crlf for windows vs mac systems.
 Replace my name and email address of course and your editor of choice.
@@ -93,7 +95,7 @@ Now you can pull up the .gitconfig file with the following command and review yo
 
     ` $ git config --global -e `
 
-# Create Local git repository
+## Create Local git repository
 
 Now we will add a local git repository to the project folder. It will show up as a hidden folder named .git.
 
@@ -110,7 +112,7 @@ Now we need to add the GitHub repository to this local repo.  Notice "git remote
 
 [git reference](https://git-scm.com/docs)
 
-# GitHub add SSH Key
+## GitHub add SSH Key
 
 In order to add an ssh key you will need to locate profile settings and ssh keys on it. For screen readers do the following:
 + Pres ctrl plus Home to go to top of page.
@@ -127,7 +129,7 @@ In order to add an ssh key you will need to locate profile settings and ssh keys
 You should now see your ssh key in the list of available ssh keys. Congrats you are ready for secure git push and fetches.
 
 
-# Create GitHub repository
+## Create GitHub repository
 
 We will create a GitHub repository. GitHub 
 Enter title, but uncheck auto crate ReadMe.md and License.txt files. These files will complicate our later steps when we push them from our local repository.
@@ -153,8 +155,13 @@ Origin will be assumed...
 
 That is it.
 
-# Resources Homework
+<h4 id="resources"">Resources and Media Webinars</h4>
 
+There are two YouTube video webinars available  @ the website article.
+
+http://blindheroes.org
+
+Each video is broken down into chapters. Screen reader users can quickly navigate YouTube Chapters with the Links List via f7. Once  the list is up, just press the number 0 to locate the 1st Chapter 00:00.  You can then just cursor down the list and choose the chapter you want to see.
 Best way to find out about command line git commands is google. The command line manual is too complicated and cannot be navigated easily. with screen readers.
  Just type in google any of the following:
 + git remote
@@ -163,11 +170,8 @@ Best way to find out about command line git commands is google. The command line
 git merge
 
 [git branch workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
-
-<h4 id="resources"">My Resources</h4>
-
-I will add resources here.
-
-
-
+[github using ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+[10 great host examples](https://gist.github.com/vrillusions/9538779)
+[10 SFTP commands](https://www.tecmint.com/sftp-command-examples/)
+[git reference](https://git-scm.com/docs)
 

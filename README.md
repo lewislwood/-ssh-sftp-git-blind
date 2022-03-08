@@ -15,8 +15,7 @@ resource links and Media Webinars can be found [here](#user-content-mywebinars )
 
 A video and audio webinar of this repository and a more in depth tutorial is available at:
 
-http://blindheroes.org
-
+[Blind Heroes Full SSH Article](https://blindheroes.org/websites/wordpress/ssh/)
 
     >You can quickly clone this GitHub repository by copy address in adressbar into clipboard. Paste it into the following command:
 

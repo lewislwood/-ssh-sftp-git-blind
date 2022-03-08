@@ -154,7 +154,7 @@ Origin will be assumed...
 
 That is it.
 
-<h4 id="resources"">Resources and Media Webinars</h4>
+<h4 id="resources" >Resources and Media Webinars</h4>
 
 There are two YouTube video webinars available  @ the website article.
 

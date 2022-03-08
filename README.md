@@ -11,7 +11,7 @@ dDemonstrate how I implemented ssh security in my workflow.
 + git config command and the resulting file .gitconfig . Briefly explained
 + GitHub repository created via browser and project folder coverted to git folder and pushed to new GitHub.
  
-resource links and Media Webinars can be found [here](#mywebinars) are provided at the bottom of this ReadMe file..
+resource links and Media Webinars can be found [here](#user-content-mywebinars ) are provided at the bottom of this ReadMe file..
 
 A video and audio webinar of this repository and a more in depth tutorial is available at:
 

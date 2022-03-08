@@ -153,7 +153,7 @@ Origin will be assumed...
 
 That is it.
 
-# Resources / Homework{resources}
+# Resources Homework
 
 Best way to find out about command line git commands is google. The command line manual is too complicated and cannot be navigated easily. with screen readers.
  Just type in google any of the following:
@@ -163,6 +163,10 @@ Best way to find out about command line git commands is google. The command line
 git merge
 
 [git branch workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
+
+<h4 id="resources"">My Resources</h4>
+
+I will add resources here.
 
 
 

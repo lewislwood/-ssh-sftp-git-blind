@@ -159,7 +159,8 @@ There are two YouTube video webinars available  @ the website article.
 
 http://blindheroes.org
 
-Each video is broken down into chapters. Screen reader users can quickly navigate YouTube Chapters with the Links List via f7. Once  the list is up, just press the number 0 to locate the 1st Chapter 00:00.  You can then just cursor down the list and choose the chapter you want to see.
+Each video is broken down into chapters.Disable screen reader to navigate Chapters ctrl plus left arrow or right arrow. 
+
 Best way to find out about command line git commands is google. The command line manual is too complicated and cannot be navigated easily. with screen readers.
  Just type in google any of the following:
 + git remote
